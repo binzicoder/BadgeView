@@ -1,3 +1,4 @@
+
 # BadgeView
 
 [![CI Status](https://img.shields.io/travis/binzicoder/BadgeView.svg?style=flat)](https://travis-ci.org/binzicoder/BadgeView)
@@ -22,8 +23,9 @@ pod 'BadgeView'
 
 ## Author
 
-binzicoder, 598989605@qq.com
+binzicoder
 
 ## License
 
 BadgeView is available under the MIT license. See the LICENSE file for more info.
+
