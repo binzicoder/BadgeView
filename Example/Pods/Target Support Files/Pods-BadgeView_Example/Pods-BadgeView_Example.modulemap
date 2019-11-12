@@ -1,0 +1,6 @@
+framework module Pods_BadgeView_Example {
+  umbrella header "Pods-BadgeView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

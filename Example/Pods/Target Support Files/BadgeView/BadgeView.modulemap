@@ -1,0 +1,6 @@
+framework module BadgeView {
+  umbrella header "BadgeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

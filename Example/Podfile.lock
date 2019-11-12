@@ -1,0 +1,27 @@
+PODS:
+  - BadgeView (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BadgeView (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BadgeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BadgeView: 6f7bca9c982d32a3ebfa076e78a6725448d938f8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 4bf158c143bb4e33b08362f3e2ee004403f0012b
+
+COCOAPODS: 1.7.0
