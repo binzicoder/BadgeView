@@ -14,7 +14,7 @@
 
 - (void)showRedDotBadge
 {
-    [[self getActualBadgeSuperView] showNumberBadgeWithValue:0];
+    [[self getActualBadgeSuperView] showRedDotBadge];
 }
 
 - (void)showBadgeWithStyle:(BadgeStyle)style value:(NSInteger)value
@@ -130,5 +130,13 @@
 - (void)setBadgeBackgroundImageView:(UIImageView *)badgeBackgroundImageView
 {
     [[self getActualBadgeSuperView] setBadgeBackgroundImageView:badgeBackgroundImageView];
+}
+- (CGFloat)badgeRadius
+{
+    return [[self getActualBadgeSuperView] badgeRadius];
+}
+- (void)setBadgeRadius:(CGFloat)badgeRadius
+{
+    [[self getActualBadgeSuperView] setBadgeRadius:badgeRadius];
 }
 @end
