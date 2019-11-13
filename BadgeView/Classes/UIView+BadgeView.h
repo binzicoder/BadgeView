@@ -7,31 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "BadgeProtocol.h"
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSUInteger, BadgeStyle)
-{
-    RedDotBadgeStyle = 0,
-    NumberBadgeStyle,
-    CustomImageBadgeStyle
-};
-
-@interface UIView (BadgeView)
-
-@property (nonatomic, strong) UILabel *badge;
-@property (nonatomic, strong) UIImageView *badgeBackgroundImageView;
-@property (nonatomic, strong) UIFont *badgeFont;
-@property (nonatomic, strong) UIColor *badgeBgColor;
-@property (nonatomic, strong) UIColor *badgeTextColor;
-@property (nonatomic, assign) CGRect badgeFrame;
-@property (nonatomic, assign) CGPoint  badgeCenterOffset;
-@property (nonatomic, assign) NSInteger badgeMaximumBadgeNumber;
-@property (nonatomic, assign) CGFloat badgeRadius;
-
-
+@interface UIView (BadgeView)<BadgeProtocol>
 - (void)showBadgeWithStyle:(BadgeStyle)style value:(NSInteger)value;
 - (void)showNumberBadgeWithValue:(NSInteger)value;
+- (void)showRedDotBadge;
 - (void)clearBadge;
 - (void)resumeBadge;
 @end

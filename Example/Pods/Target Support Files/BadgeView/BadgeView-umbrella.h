@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "BadgeProtocol.h"
+#import "UIBarButtonItem+BadgeView.h"
+#import "UITabBarItem+BadgeView.h"
 #import "UIView+BadgeView.h"
 
 FOUNDATION_EXPORT double BadgeViewVersionNumber;

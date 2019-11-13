@@ -8,15 +8,7 @@
 
 #import "UIView+BadgeView.h"
 #import <objc/runtime.h>
-static char badgeLabelKey;
-static char badgeBgColorKey;
-static char badgeFontKey;
-static char badgeTextColorKey;
-static char badgeFrameKey;
-static char badgeCenterOffsetKey;
-static char badgeMaximumBadgeNumberKey;
-static char badgeRadiusKey;
-static char badgeBackgroundImageViewKey;
+
 
 #define kBadgeDefaultFont      ([UIFont boldSystemFontOfSize:9])
 #define kBadgeDefaultMaximumBadgeNumber                     99
